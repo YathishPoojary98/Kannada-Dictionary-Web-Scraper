@@ -46,21 +46,22 @@ Install the necessary dependencies using pip:
 ```bash
 pip install requests beautifulsoup4 pandas
 ```
-📌 Usage
-1️⃣ Run the Scraper Script
-Ensure you have Python installed, then execute the following command to scrape the dictionary:
+# 📌 Usage
+
+1️⃣ **Run the Scraper Script**  
+   Ensure you have **Python installed**, then execute the following command to scrape the dictionary:
 
 ```bash
 python scraper.py
 ```
 This will fetch Kannada dictionary entries from the Padakanaja website.
 
-2️⃣ Clean the Data
-After scraping, open the Jupyter Notebook (Pada_scrape.ipynb) and run the cells to clean the scraped data.
-The script extracts only the words and their meanings.
+2️⃣ **Clean the Data**  
+   After scraping, open the **Jupyter Notebook (`Pada_scrape.ipynb`)** and run the cells to clean the scraped data.  
+   The script extracts only the **words and their meanings**.
 
-3️⃣ Export to Excel
-Once cleaned, the notebook will save the organized dictionary entries to an Excel file.
+3️⃣ **Export to Excel**  
+   Once cleaned, the notebook will **save the organized dictionary entries** to an **Excel file**.
 
 ## 📂 Output
 
@@ -69,8 +70,14 @@ Once cleaned, the notebook will save the organized dictionary entries to an Exce
 | `scraped_data.txt`        | Raw scraped dictionary entries.              |
 | `dictionary_entries.xlsx` | Cleaned and structured data in an Excel file. |
 
-🎯 Example Usage
-Modify script parameters as needed (e.g., base URL, page suffix, total pages).
-Run the scraper script to begin scraping.
-Open the Jupyter Notebook and execute the data cleaning process.
-Check the resulting Excel file for the structured dictionary entries.
+
+---
+
+## 🎯 Example Usage
+
+- **Modify script parameters** as needed (e.g., **base URL, page suffix, total pages**).  
+- **Run the scraper script** to begin scraping.  
+- **Open the Jupyter Notebook** and execute the data cleaning process.  
+- **Check the resulting Excel file** for the structured dictionary entries.  
+
+
