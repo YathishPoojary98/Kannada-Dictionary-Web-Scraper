@@ -62,10 +62,13 @@ The script extracts only the words and their meanings.
 3️⃣ Export to Excel
 Once cleaned, the notebook will save the organized dictionary entries to an Excel file.
 
-📂 Output
-File Name	Description
-scraped_data.txt	Raw scraped dictionary entries.
-dictionary_entries.xlsx	Cleaned and structured data in an Excel file.
+## 📂 Output
+
+| File Name                 | Description                                  |
+|---------------------------|----------------------------------------------|
+| `scraped_data.txt`        | Raw scraped dictionary entries.              |
+| `dictionary_entries.xlsx` | Cleaned and structured data in an Excel file. |
+
 🎯 Example Usage
 Modify script parameters as needed (e.g., base URL, page suffix, total pages).
 Run the scraper script to begin scraping.
